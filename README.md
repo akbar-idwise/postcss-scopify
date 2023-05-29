@@ -53,7 +53,7 @@ __Example output__
 ## Installation
 
 ```
-npm install postcss-scopify
+npm i @idwise-public/postcss-scopify
 ```
 
 ## Usage
