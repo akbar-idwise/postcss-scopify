@@ -2,7 +2,7 @@
 var postcss = require('postcss');
 var selectorParser = require('postcss-selector-parser');
 
-var  conditionalGroupRules = ['media','supports','document'];
+var  conditionalGroupRules = ['media','supports','document', 'container'];
 
 module.exports = postcss.plugin('postcss-scopify', scopify);
 
